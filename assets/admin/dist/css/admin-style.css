@@ -1,0 +1,181 @@
+/* Footer Widgets  */
+.footer-widget .footer-widget-header {
+
+    font-weight: bold;
+    border: solid 1px #c4cdd5;
+    padding: 10px;
+    text-align: center;
+
+}
+.footer-widget .footer-widget-body {
+    margin-bottom: 20px;
+}
+
+.footer-widget .footer-widget-body .widget {
+
+    border: solid 1px #c4cdd5;
+        border-top-color: rgb(196, 205, 213);
+        border-top-style: solid;
+        border-top-width: 1px;
+    border-top: 0px;
+    padding: 0px 15px;
+
+}
+.footer-widget .footer-widget-body .widget > .row > div {
+
+    padding: 10px;
+    border-right: 1px solid #c4cdd5;
+
+}
+.footer-widget .footer-widget-body .widget > .row > div:last-child {
+    border-right: 0px;
+}
+
+/* Email Templates */
+.templates-table td
+{
+    cursor: pointer;
+}
+.empty-template
+{
+    height: 256px;
+    vertical-align: middle;
+    height: 100%;
+}
+.empty-template p
+{
+    font-size: 300%;
+    color: #9e9e9e4d;
+    margin: auto;
+    padding: 10px;
+    line-height: 256px;
+}
+
+/*
+*
+* ==========================================
+* AUTH PAGES
+* ==========================================
+*
+*/
+.login,
+.image {
+  min-height: 100vh;
+}
+
+.bg-image {
+  background-image: url('../img/black-laptop.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+/*
+*
+* ==========================================
+* INVOCE
+* ==========================================
+*
+*/
+.invoice p{
+        line-height: 1em;
+    }
+    .invoice h2{
+        text-transform: uppercase;
+    }
+    .invoice-info{
+        padding-bottom: 50px;
+    }
+    .invoice-info strong{
+        padding-right: 50px;
+        text-transform: capitalize;
+    }
+    .billing{
+        background-color: #51b4db;
+        color: #fff;
+        font-weight: 700;
+        font-size: 14px;
+        padding: 10px 0px 10px 10px;
+        text-transform: uppercase;
+    }
+    .items_detail th{
+        background-color: #51b4db;
+        color: #fff;
+        text-transform: uppercase;
+    }
+    .inv-tnc {
+        color:#8f8f8f; 
+        font-size:10px;
+    }
+/*
+*
+* ==========================================
+* GENERAL CLASSES
+* ==========================================
+*
+*/
+
+/*Margins*/
+
+.mg-t-20 {
+    margin-top: 20px;
+}
+.mg-l-20 {
+    margin-left: 20px;
+}
+.mg-b-20 {
+    margin-bottom: 20px;
+}
+.mg-r-20 {
+    margin-right: 20px;
+}
+
+.mg-7-0{
+    margin:7px 0px;
+}
+/* Padding */
+.pd-t-50 {
+    padding-top: 50px;
+}
+.pd-l-50 {
+    padding-left: 50px;
+}
+.pd-b-50 {
+    padding-bottom: 50px;
+}
+.pd-r-50 {
+    padding-right: 50px;
+}
+
+/* Width */
+.width-150p {
+    width: 150px;
+}
+.width-5pc {
+    width: 5%;
+}
+.width-10pc {
+    width: 10%;
+}
+.width-15pc {
+    width: 15%;
+}
+.width-20pc {
+    width: 20%;
+}
+.width-25pc {
+    width: 25%;
+}
+.width-30pc {
+    width: 30%;
+}
+.width-35pc {
+    width: 35%;
+}
+.width-40pc {
+    width: 40%;
+}
+.width-45pc {
+    width: 45%;
+}
+.width-50pc {
+    width: 50%;
+}
